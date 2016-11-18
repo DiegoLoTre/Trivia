@@ -19,13 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Globalization" />
-        <activity android:name=".End" />
-        <activity android:name=".Development" />
-        <activity android:name=".Geography" />
-        <activity android:name=".Leaders" />
-        <activity android:name=".Conflict" />
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Globalization"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".End"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Development"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Geography"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Leaders"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Conflict"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Settings"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>

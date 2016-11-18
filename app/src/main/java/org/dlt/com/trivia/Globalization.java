@@ -94,7 +94,7 @@ public class Globalization extends Activity implements View.OnClickListener {
                 bB.setTextColor(Color.parseColor("#FFFFFF"));
                 bC.setTextColor(Color.parseColor("#FFFFFF"));
                 bD.setTextColor(Color.parseColor("#FFFFFF"));
-                if(question > 10) {
+                if(question > 2) {
                     Intent end = new Intent(Globalization.this, End.class);
                     end.putExtra("score",score+" puntos");
                     score = 0;
