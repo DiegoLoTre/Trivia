@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="globalization">Globalizacion</string>
+    <string name="development">Desarrollo</string>
+    <string name="geography">Geografia</string>
+    <string name="leaders">Lideres</string>
+    <string name="conflict">Conflictos</string>
+    <string name="New">Nuevo</string>
+    <string name="random">Aleatorio</string>
+    <string name="settings">Configuracion</string>
+    <string name="score">Puntuación</string>
+    <string name="back">Volver</string>
+    <string name="sound">Sonido</string>
+    <string name="on">On</string>
+    <string name="off">oFF</string>
+</resources>

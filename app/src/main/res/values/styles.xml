@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="globalization">
+        <item name="android:background">#ffaf03</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="development">
+        <item name="android:background">#ff7878d2</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="geography">
+        <item name="android:background">#81d269</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="leaders">
+        <item name="android:background">#ba8ee0</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="conflict">
+        <item name="android:background">#f53936</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="settings">
+        <item name="android:background">#accb12</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Inside buttons game -->
+    <style name="blueButton">
+        <item name="android:background">@drawable/button_blue</item>
+        <item name="android:shape">@drawable/button_blue</item>
+    </style>
+    <style name="purpleButton">
+        <item name="android:background">@drawable/button_purple</item>
+        <item name="android:shape">@drawable/button_purple</item>
+    </style>
+    <style name="orangeButton">
+        <item name="android:background">@drawable/button_orange</item>
+        <item name="android:shape">@drawable/button_orange</item>
+    </style>
+    <style name="redButton">
+        <item name="android:background">@drawable/button_red</item>
+        <item name="android:shape">@drawable/button_red</item>
+    </style>
+    <style name="greenButton">
+        <item name="android:background">@drawable/button_green</item>
+        <item name="android:shape">@drawable/button_green</item>
+    </style>
+    <style name="yellowButton">
+        <item name="android:background">@drawable/button_yellow</item>
+        <item name="android:shape">@drawable/button_yellow</item>
+    </style>
+
+
+    <style name="random">
+        <item name="android:background">@drawable/button_random</item>
+        <item name="android:shape">@drawable/button_random</item>
+    </style>
+
+</resources>

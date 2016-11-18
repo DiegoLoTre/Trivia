@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="landscape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.dlt.com.trivia.Game"
+    android:background="@drawable/background">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="false">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/globalization"
+            android:id="@+id/globalization"
+            android:width="256sp"
+            android:minHeight="90dp"
+            android:layout_weight="1"
+            style="@style/globalization"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/development"
+            android:id="@+id/development"
+            android:width="256sp"
+            android:minHeight="90dp"
+            android:layout_weight="1"
+            style="@style/development"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/geography"
+            android:id="@+id/geography"
+            android:width="256sp"
+            android:minHeight="90dp"
+            android:layout_weight="1"
+            style="@style/geography"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/leaders"
+            android:id="@+id/leaders"
+            android:width="256sp"
+            android:minHeight="90dp"
+            android:layout_weight="1"
+            style="@style/leaders"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/conflict"
+            android:id="@+id/conflict"
+            android:width="256sp"
+            android:minHeight="90dp"
+            android:layout_weight="1"
+            style="@style/conflict"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="248dp"
+            android:layout_height="102dp"
+            android:text="@string/New"
+            android:id="@+id/textView"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:id="@+id/random"
+            style="@style/random"
+            android:text="@string/random"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:text="@string/settings"
+            android:id="@+id/settings"
+            android:textSize="22sp"
+            android:layout_marginStart="50dp"
+            android:layout_weight="0.21"
+            style="@style/settings"/>
+
+    </LinearLayout>
+    
+</RelativeLayout>

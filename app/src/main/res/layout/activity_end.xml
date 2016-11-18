@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.dlt.com.trivia.End"
+    android:orientation="vertical"
+    android:background="@drawable/background_score">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="576dp"
+        android:layout_height="47dp"
+        android:weightSum="1"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="288dp"
+            android:layout_height="100dp"
+            android:text="@string/New"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_weight="0.34"
+            android:layout_marginStart="10dp"
+            android:textIsSelectable="false"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:text="@string/score"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginStart="100dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_marginTop="70dp">
+
+        <Button
+            android:layout_width="112dp"
+            android:layout_height="71dp"
+            android:text="@string/back"
+            android:id="@+id/reboot"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="160dp"
+            android:background="#accb12"
+            android:layout_height="62dp"
+            android:id="@+id/score"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="100dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
